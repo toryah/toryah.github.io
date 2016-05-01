@@ -53,6 +53,10 @@ which.style.top=0
 
 </script>
 <body>
-<img src="fox.png" width=100% height = 100% class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()">
+<img src="fox.png" width=100% height = 100% class="shakeimage" onLoad="init(this);rattleimage()">
 </img>
+
+<audio autoplay loop>
+	<source src="toryah.mp3" type="audio/mpeg">
+</audio> 
 </body>
